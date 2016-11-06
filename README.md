@@ -165,6 +165,9 @@ public class TryCatch
      }
  }
 ```
+```
+การทำงานปกติ
+```
 ###2.
 ``` csharp
 using System;
@@ -178,6 +181,25 @@ public class TryCatch
         Console.WriteLine(a);
      }
  }
+```
+แก้ไข
+```
+int a = 0;
+            int b = 10;
+            try
+            {
+                Console.WriteLine("piyapath 57030192");
+                b /= a;
+                Console.WriteLine(a);
+            }
+            catch (NullReferenceException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
 ```
 ###3.
 ``` csharp
@@ -195,6 +217,26 @@ public class TryCatch
      }
  }
 ```
+แก้ไข
+```
+int value = 800000000;
+            checked // check for overflow
+            {
+                try
+                {
+                    int square = value * value;                 
+                    Console.WriteLine("{0} ^ 2 = {1}", value, square);
+
+                }
+                catch
+                {
+                    Console.WriteLine("piyaapth 57030192");
+                    Console.WriteLine("OverflowException");
+
+                }
+            }
+```
+
 ###1.1.3. คำสั่ง ```throw```
 
 คำสั่ง ```throw``` ใช้เพื่อเปลี่ยนเส้นทางการทำงานของโปรแกรมโดยเจาะจง exception เป้าหมาย
