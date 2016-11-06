@@ -684,6 +684,51 @@ fri|	Friday	|Blue
 sat|	Saturday	|Purple
 อื่นๆ|	 ---|	---
 
+```
+            Console.WriteLine("piyapth 57030192");
+            Console.Write("Input  Day (sun, mon, tue, wed, thu, fri, sat) : ");
+            string Date = Console.ReadLine();
+            string message, message1;                      
+            switch (Date)
+            {
+                case "sun":
+                    message = "Sunday";
+                    message1 = "Color Red";
+                    break;
+                case "mon":
+                    message = "Monday";
+                    message1 = "Color Yellow";
+                    break;
+                case "tue":
+                    message = "Tuesday";
+                    message1 = "Color Pink";
+                    break;
+                case "wed":
+                    message = "Wednesday";
+                    message1 = "color Green";
+                    break;
+                case "thu":
+                    message = "Thursday";
+                    message1 = "Color Orange";
+                    break;
+                case "fai":
+                    message = "Faiday";
+                    message1 = "Color Light blue";
+                    break;
+                case "sat":
+                    message = "Saturday";
+                    message1 = "Color Purple";
+                    break;
+                default:
+                    message = "---";
+                    message1 = "---";
+                    break;
+            }            
+            Console.WriteLine(message);
+            Console.WriteLine(message1);
+            Console.WriteLine("-------------------------");
+```
+![](https://github.com/JUBJIBPIYAPATH/LAB-08/blob/master/LAB8.9.PNG?raw=true)
 
 ##Reference
 เนื้อหาในส่วนนี้เป็นอ้างอิงสำหรับการเขียนโปรแกรม
