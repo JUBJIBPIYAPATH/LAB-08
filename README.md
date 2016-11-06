@@ -305,7 +305,20 @@ public class ExceptionLearning
         throw new _____________________();
     }
  }
-````
+```
+1.
+![](https://github.com/JUBJIBPIYAPATH/LAB-08/blob/master/LAB8.2.PNG?raw=true)
+
+2.
+![](https://github.com/JUBJIBPIYAPATH/LAB-08/blob/master/LAB8.3.PNG?raw=true)
+
+3.
+![](https://github.com/JUBJIBPIYAPATH/LAB-08/blob/master/LAB8.4.PNG?raw=true)
+
+4.
+![](https://github.com/JUBJIBPIYAPATH/LAB-08/blob/master/LAB8.5.PNG?raw=true)
+
+
 
 ###เรื่องของ exception นี้ศึกษาเพิ่มเติมได้ [ที่นี่](http://msdn.microsoft.com/en-us/library/vstudio/2w8f0bss%28v=vs.100%29.aspx)
 
