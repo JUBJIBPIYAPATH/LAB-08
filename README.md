@@ -384,6 +384,65 @@ execute next line
 2.	ถ้าค่าที่ผู้ใช้ป้อน น้อยกว่า ค่าที่สุ่มมาได้ ให้พิมพ์ ```“Too Low, You loss!!”```ออกทางหน้าจอ
 3.	ถ้าค่าที่ผู้ใช้ป้อน เท่ากับ ค่าที่สุ่มมาได้ ให้พิมพ์ ```“Okay, You win!!”``` ออกทางหน้าจอ
 
+```
+            Console.WriteLine("piyapth 57030192");            
+            Console.WriteLine("Pleace Number 0 to 1 ");           
+            Console.Write("Number input : ");
+            double  a = Convert.ToDouble(Console.ReadLine());         
+            Random random = new Random();            
+            double  randomNumber1 = random.Next(0,1);
+            Console.WriteLine("Random Number = {0} ", randomNumber1);                       
+            if (a > randomNumber1)
+            {
+                Console.WriteLine("Too Hight, You loss!!");
+            }
+            if (a < randomNumber1)
+            {
+                Console.WriteLine("Too Low, You loss!!");
+            }
+            if (a  == randomNumber1)
+                Console.WriteLine("Okay, You win!!");
+
+           
+            Console.WriteLine("---------------------------");
+            Console.Write("Number input round2: ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Random random1 = new Random();
+            double randomNumber2 = random.Next(0,1);
+            Console.WriteLine("Random Number = {0} ", randomNumber2);
+
+            if (b > randomNumber2)
+            {
+                Console.WriteLine("Too Hight, You loss!!");
+            }
+            if (b < randomNumber2)
+            {
+                Console.WriteLine("Too Low, You loss!!");
+            }
+            if (b == randomNumber2)
+                Console.WriteLine("Okay, You win!!");
+
+            Console.WriteLine("---------------------------");
+            Console.Write("Number input round3: ");
+            double c = Convert.ToDouble(Console.ReadLine());
+            Random random2 = new Random();
+            double randomNumber3 = random.Next(0,1);
+            Console.WriteLine("Random Number = {0} ", randomNumber3);
+
+            if (c > randomNumber3)
+            {
+                Console.WriteLine("Too Hight, You loss!!");
+            }
+            if (c < randomNumber3)
+            {
+                Console.WriteLine("Too Low, You loss!!");
+            }
+            if (c == randomNumber3)
+                Console.WriteLine("Okay, You win!!");
+
+```
+![](https://github.com/JUBJIBPIYAPATH/LAB-08/blob/master/LAB8.6.PNG?raw=true)
+
 ###1.2.2.	คำสั่ง ```if…else```
 
 เงื่อนไขที่เป็นไปได้ของคำสั่งในการตัดสินใจมีสองทางเสมอ (true และ false) ที่ผ่านมา เราจะเห็นว่า คำสั่ง if เป็นคำสั่งที่เลือกทำเพียงทางเดียว (เฉพาะในกรณีที่เงื่อนไขเป็น true เท่านั้น) หากต้องการให้โปรแกรมทำงานทั้งกรณีที่เงื่อนไขเป็น true และ false เราต้องใช้คำสั่ง if…else โดยมีรูปแบบดังนี้
